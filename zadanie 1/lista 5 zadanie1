@@ -1,0 +1,40 @@
+int main() {
+	int losowa;
+	int q=0,w=0,e=0,r=0,t=0,y=0,u=0,o=0,p=0,l=0, i=0, j=0;
+	
+	for (i=0;i<1000;i++)
+	{
+		losowa=10+rand()%(20-10+1);	
+		
+		while (losowa==10)
+		j++;
+		while (losowa==11)
+		q++;
+		while (losowa==12)
+		w++;
+		while (losowa==13)
+		e++;
+		while (losowa==14)
+		r++;
+		while (losowa==15)
+		t++;
+		while(losowa==16)
+		y++;
+		while(losowa==17)
+		u++;
+		while (losowa==18)
+		o++;
+		while (losowa==19)
+		p++;
+		while (losowa==20)
+		l++;
+	}
+	
+	printf ("Program wylosował;\n %d liczb=10,\n %d liczb=11, \n%d liczb=12,\n %dliczb=13",j,q,w,e);
+	printf("\n%d liczb=15,\n%d liczb=16, \n%d liczb=17, \n%d liczb=18,\n %d liczb=19,\n %d liczb=20",r,t,y,u,o,p,l);
+	
+	
+	
+	
+	return 0;
+}
